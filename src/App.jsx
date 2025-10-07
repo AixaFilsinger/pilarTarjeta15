@@ -14,7 +14,7 @@ function App() {
       <ReproductorMusic></ReproductorMusic>
       <Portada></Portada>
       <Frase></Frase>
-      
+      <CuentaRegresiva></CuentaRegresiva>
     </>
   )
 }
