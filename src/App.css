@@ -35,8 +35,7 @@ body{
   background: url(./assets/fondoBrillo.jpg);
 }
 .portada{
-  height: 100%;
-  padding-top: 5rem;
+  height: 100vh;
 }
 .portada h1{
   font-family: 'Amoresa', cursive;
