@@ -46,7 +46,7 @@ const CuentaRegresiva = () => {
   return (
     <section>
       <aside className="d-flex justify-content-center align-items-center">
-        <img src={circulo} alt="" width={400} />
+        <img src={circulo} alt="" width={350} />
       </aside>
 
       <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center">
