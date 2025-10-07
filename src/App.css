@@ -30,3 +30,50 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
+.varios{
+  background: url(./assets/fondoBrillo.jpg);
+}
+.portada{
+  height: 100%;
+  padding-top: 5rem;
+}
+.portada h1{
+  font-family: 'Amoresa', cursive;
+  font-size: 5rem;
+  color: #8D9F6C;
+}
+.linea {
+  position: relative;
+  display: inline-block; /* para que el contenedor se ajuste al contenido */
+  margin-bottom: 2rem;
+}
+
+.linea img {
+  display: block;
+  width: 150px;
+}
+
+.linea h2 {
+  position: absolute;
+  color: black; /* o el color que necesites */
+  font-family: 'Amoresa', cursive; /* o la fuente que uses */
+  margin: 0;
+  padding: 0;
+}
+.linea .mis {
+  top: 22px;
+  left: 6px;
+}
+
+.linea .años {
+  bottom: 30px;
+  right: -12px;
+}
+.repro{
+  margin-top: 10rem;
+  height: 18rem;
+  margin-bottom: 5rem;
+}
+
+
