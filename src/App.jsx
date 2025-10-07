@@ -1,7 +1,15 @@
-import "./App.css";
+
+import './App.css'
+import ReproductorMusic from './views/ReproductorMusic'
 
 function App() {
-  return <></>;
+  
+
+  return (
+    <>
+      <ReproductorMusic></ReproductorMusic>
+    </>
+  )
 }
 
-export default App;
+export default App
