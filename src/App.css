@@ -138,7 +138,9 @@ small{
 }
 
 .varios0{
-  background: url(./assets/fondoBrillo.jpg);
+  background: url(./assets/fondoBrillo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .varios{
   background-color: #ffffff;

@@ -129,6 +129,7 @@ const Varios = () => {
         </aside>
         <aside className="col-xs-12 text-center asistencia mb-4">
           <img src={asistencia} alt="" width={100} />
+          <h4>Confirmar Asistencia</h4>
           <p
             data-aos="fade-right"
             data-aos-offset="300"
@@ -138,10 +139,18 @@ const Varios = () => {
           </p>
           <button
             className="btn-varios mt-3 mb-5"
-            onClick={() => window.open("https://wa.link/26qz7t")}
+            onClick={() => window.open("https://wa.link/4rs19n")}
           >
-            Confirmar Asistencia
+            Mamá Pilar
           </button>
+          <p>o</p>
+          <button
+            className="btn-varios mt-3 mb-5"
+            onClick={() => window.open("https://wa.link/c9xepb")}
+          >
+            Pilar
+          </button>
+
         </aside>
         <aside className="col-xs-12 text-center regalo mb-5">
           <img src={regalo} alt="" width={100} />
