@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Imperial+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -35,9 +36,7 @@ body{
   background-size: cover;
 }
 
-.varios{
-  background: url(./assets/fondoBrillo.jpg);
-}
+
 
 .portada h1{
   font-family: 'Amoresa', cursive;
@@ -115,5 +114,95 @@ body{
 }
 small{
    font-family: 'Times New Roman', Times, serif
+}
+
+.repro {
+  text-align: center;
+}
+
+.btn-music {
+  background-color: #749764; /* botón blanco */
+  color: white; /* ícono color vino */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%; /* redondo */
+  font-size: 24px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-music:hover {
+  background-color: rgb(212, 175, 55);;
+  color: white;
+  transform: scale(1.1);
+}
+
+.varios0{
+  background: url(./assets/fondoBrillo.jpg);
+}
+.varios{
+  background-color: #ffffff;
+  width: 90%;
+  height: 90%;
+
+}
+.varios h4{
+ font-family: "Amoresa", cursive;
+ color: black;
+ margin-top: 10px;
+ font-size: 2.5rem;
+}
+.varios p{
+  color: black;
+ /* font-family: "Lovelies", cursive;*/
+ font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  margin:20px 30px;
+}
+
+.btn-varios {
+   font-family: 'Cormorant Garamond', serif;
+  background: #749764;
+  color: #fff;
+  border: 2px solid gold;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-varios:hover {
+  background: gold;
+  color: #8D9F6C; /* texto vino */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+
+.qr{
+  font-family: "Riwaya", sans-serif;
+ color: white;
+ margin-top: 10px;
+ font-size: 2rem;
+}
+.fin{
+  background: url(./assets/Ini.png) no-repeat;
+  background-size: cover;
+}
+.fin h4{
+ font-family: "Nefelibata", cursive;
+ color: black;
+ font-size: 40px;
+ margin-bottom: 80px;
+}
+.fin h2{
+  font-family: 'Amoresa', sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 60px;
+  margin: 0;
 }
 

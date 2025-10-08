@@ -11,12 +11,14 @@ function App() {
 
   return (
     <>
-       <aside className='fondo1'>
+       <aside className='fondo1 mb-5'>
          <ReproductorMusic></ReproductorMusic>
       <Portada></Portada>
       <Frase></Frase>
       <CuentaRegresiva></CuentaRegresiva>
        </aside>
+       <Varios></Varios>
+
      
       
     </>

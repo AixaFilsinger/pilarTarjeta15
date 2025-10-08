@@ -1,12 +1,27 @@
+import brillo from "../assets/star.png";
+import boladisco from "../assets/boladiscoN.png";
+import dressCode from "../assets/dresscodeN.png";
+import Notamusical from "../assets/disco.png";
+import copas from "../assets/copasN.png";
+import asistencia from "../assets/invitacionN.png";
+import regalo from "../assets/regaloN.png";
+import qr from "../assets/qr.jpeg"
 
+
+import { useState } from "react";
 
 const Varios = () => {
+   const [showModal, setShowModal] = useState(false);
+
     return (
-        <section className="varios container">
-             <article className="row">
+         <section className="m-0 p-0">
+      <article className="varios0 pt-4 pb-4">
+      <section className="container d-flex flex-column align-items-center varios">
+     
+      <article className="row">
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
-          <img src={misa} alt="" width={100} />
+          <img src={asistencia} alt="" width={100} />
           <h4
             data-aos="fade-right"
             data-aos-offset="300"
@@ -172,8 +187,40 @@ const Varios = () => {
             </div>
           )}
         </aside>
+         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+            <img src={brillo} alt="" className="brillo brillo-top"/>
+           <img src={qr} alt="" width={300} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Subi tus fotos
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos acá!
+          </p>
+        </aside>
       </article>
-        </section>
+     
+      
+    </section>
+    </article>
+    
+      <article
+        className=" fin d-flex flex-column justify-content-center align-items-center position-relative"
+       
+      >
+        <img src={brillo} alt="" className="brillo brillo-top1" />
+        <h4  data-aos="zoom-in-down">¡No podes faltar!</h4>
+        <h2  data-aos="zoom-in-down">Milagros</h2>
+        <img src={brillo} alt="" className="brillo brillo-bottom1" />
+      </article>
+    </section>
     );
 };
 
