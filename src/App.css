@@ -132,7 +132,7 @@ small{
 }
 
 .btn-music:hover {
-  background-color: rgb(212, 175, 55);;
+  background-color: rgb(212, 175, 55);
   color: white;
   transform: scale(1.1);
 }
@@ -188,21 +188,84 @@ small{
  margin-top: 10px;
  font-size: 2rem;
 }
-.fin{
-  background: url(./assets/Ini.png) no-repeat;
+.fin {
+  height: 100vh;
+  position: relative;
+  background: url(./assets/Ini.png);
   background-size: cover;
+  background-position: center;
+  overflow: hidden; /* para que el overlay no se escape */
+}
+
+.fin::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.fin h2,
+.fin h4,
+.fin img {
+  position: relative;
+  z-index: 1; /* para que queden arriba del overlay */
+  
 }
 .fin h4{
  font-family: "Nefelibata", cursive;
- color: black;
+ color: rgb(212, 175, 55);
  font-size: 40px;
  margin-bottom: 80px;
 }
 .fin h2{
-  font-family: 'Amoresa', sans-serif;
-  color: black;
+  font-family: 'Amoresa', cursive;
+  color: rgb(212, 175, 55);
   font-weight: 300;
   font-size: 60px;
   margin: 0;
 }
+
+/* Estilo base del brillo */
+.brillo {
+  position: absolute;
+  width: 120px;  /* ajusta según quieras */
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Ubicación del brillo */
+.brillo-top {
+  top: -40px;
+  left: -5px;
+}
+
+.brillo-bottom {
+  bottom: -40px;
+  right: 5px;
+  animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
+}
+.brillo-top1 {
+  top: 30px;
+  left: -100px;
+}
+
+.brillo-bottom1 {
+  bottom: 30px;
+  right: -100px;
+  animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
+}
+
+/* Animación flotante */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
 

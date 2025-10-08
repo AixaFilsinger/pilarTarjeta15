@@ -14,7 +14,7 @@ const Varios = () => {
    const [showModal, setShowModal] = useState(false);
 
     return (
-         <section className="m-0 p-0">
+         <section className="m-0 p-0 container">
       <article className="varios0 pt-4 pb-4">
       <section className="container d-flex flex-column align-items-center varios">
      
