@@ -19,25 +19,7 @@ const Varios = () => {
       <section className="container d-flex flex-column align-items-center varios">
      
       <article className="row">
-        <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
-            <img src={brillo} alt="" className="brillo brillo-top"/>
-          <img src={asistencia} alt="" width={100} />
-          <h4
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            Misa
-          </h4>
-          <p
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            23 de noviembre Virgen de la merced<br />
-            21:30
-          </p>
-        </aside>
+       
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={copas} alt="" width={150} />
@@ -53,8 +35,8 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            29 de noviembre <br />
-            21:30
+            24 de Octubre <br />
+            22hs
           </p>
         </aside>
         <aside className="col-xs-12 text-center donde mb-4 position-relative">
@@ -71,7 +53,7 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Salón Torre Molino
+            Salón Rancho Don José<br/>Alto verde.
           </p>
           <button
             className="btn-varios mt-3 mb-5"
@@ -97,17 +79,18 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Elegante<br /> Evitar el color rojo
+            Elegante<br /> Evitar el color verde
           </p>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
           <img src={Notamusical} alt="" width={100} />
           <h4
+          className="fs-6"
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            PLAYLIST
+            Playlist
           </h4>
           <p
             data-aos="fade-right"
@@ -181,10 +164,10 @@ const Varios = () => {
 
               {/* Los <p> ahora sí se ven */}
               <p className="mb-1">
-                <strong>Alias:</strong> roxi.53
+                <strong>Alias:</strong> natalia.761.sofia.mp
               </p>
               <p className="mb-3">
-                <strong>A nombre de:</strong><br/>Roxana Portuese
+                <strong>A nombre de:</strong><br/>Natalia Sofia
               </p>
 
               <button

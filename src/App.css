@@ -43,11 +43,14 @@ body{
   font-size: 5rem;
   color: #8D9F6C;
   margin-bottom: 18rem;
+  position: relative;
+  z-index: 2;
 }
 .linea {
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
   margin-bottom: 2rem;
+  z-index: 2;
 }
 
 .linea img {
@@ -71,6 +74,40 @@ body{
   bottom: 30px;
   right: -12px;
 }
+
+.portada {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Imágenes laterales decorativas */
+.decor {
+  position: absolute;
+  width: 100px;          /* tamaño ideal móvil */
+  /*opacity: 0.8;*/
+  z-index: 1;
+}
+
+.decor-izq {
+  left: 15px;
+  bottom: 2rem;
+}
+
+.decor-der {
+  right: 15px;
+  bottom: 2rem;
+}
+
+/* Ajustes finos para pantallas más pequeñas */
+@media (max-width: 480px) {
+  .decor {
+    width: 200px;
+    bottom: 1.5rem;
+  }
+}
+
 .repro{
   margin-top: 10rem;
   height: 18rem;
