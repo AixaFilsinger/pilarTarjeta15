@@ -66,7 +66,7 @@ const Varios = () => {
           </button>
           <img src={brillo} alt="" className="brillo brillo-bottom" />
         </aside>
-        <aside className="col-xs-12 text-center dressCode mb-4">
+        <aside className="col-xs-12 text-center dressCode mb-5">
           <img src={dressCode} alt="" width={100} />
           <h4
             data-aos="fade-right"
