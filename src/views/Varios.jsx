@@ -81,8 +81,13 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Elegante<br /> Evitar el color verde
+            Elegante Sport<br /> Evitar el color verde
           </p>
+           <div className="color-palette">
+              
+              <div className="color-circle verde" title="Verde"></div>
+              
+            </div>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
           <img src={Notamusical} alt="" width={150} />
@@ -169,7 +174,7 @@ const Varios = () => {
                 <strong>Alias:</strong> natalia.761.sofa.mp
               </p>
               <p className="mb-3">
-                <strong>A nombre de:</strong><br/>Natalia Sofia
+                <strong>A nombre de:</strong><br/>Natalia René Delgado
               </p>
 
               <button

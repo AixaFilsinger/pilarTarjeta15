@@ -333,4 +333,24 @@ small{
   }
 }
 
+/* 🔹 Contenedor de los círculos */
+.color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+/* 🔹 Círculos base */
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid gold;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* 🔹 Colores específicos */
+.color-circle.verde {
+  background-color: #749764;
+}
+
 
