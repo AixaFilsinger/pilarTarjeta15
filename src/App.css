@@ -40,7 +40,7 @@ body{
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 5rem;
+  font-size: 6rem;
   color: #8D9F6C;
   margin-bottom: 18rem;
   position: relative;
@@ -59,6 +59,7 @@ body{
 }
 
 .linea h2 {
+  font-size: 3rem;
   position: absolute;
   color: black; /* o el color que necesites */
   font-family: 'Amoresa', cursive; /* o la fuente que uses */
@@ -66,18 +67,17 @@ body{
   padding: 0;
 }
 .linea .mis {
-  top: 22px;
-  left: 6px;
+  top: 15px;
+  left: -28px;
 }
 
 .linea .años {
-  bottom: 30px;
-  right: -12px;
+  bottom: 7px;
+  right: -55px;
 }
 
 .portada {
   position: relative;
-  width: 100%;
   overflow: hidden;
   text-align: center;
 }
@@ -91,34 +91,34 @@ body{
 }
 
 .decor-izq {
-  left: 15px;
+  left: 10px;
   bottom: 2rem;
 }
 
 .decor-der {
-  right: 15px;
-  bottom: 2rem;
+  right: -10px;
+  bottom: 3.5rem;
 }
 
 /* Ajustes finos para pantallas más pequeñas */
 @media (max-width: 480px) {
   .decor {
     width: 200px;
-    bottom: 1.5rem;
+    
   }
 }
 
 .repro{
   margin-top: 10rem;
   height: 18rem;
-  margin-bottom: 5rem;
+  
 }
 .frase{
   margin-bottom: 8rem;
 }
 .frase p{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   
 }
 

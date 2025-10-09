@@ -45,6 +45,7 @@ const Varios = () => {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
+            className="mt-5"
           >
             ¿Dónde?
           </h4>
@@ -71,6 +72,7 @@ const Varios = () => {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
+            className="mt-4"
           >
             DressCode
           </h4>
@@ -85,7 +87,7 @@ const Varios = () => {
         <aside className="col-xs-12 text-center playlist mb-4">
           <img src={Notamusical} alt="" width={100} />
           <h4
-          className="fs-6"
+          className="fs-1 mt-5"
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
@@ -112,7 +114,7 @@ const Varios = () => {
         </aside>
         <aside className="col-xs-12 text-center asistencia mb-4">
           <img src={asistencia} alt="" width={100} />
-          <h4>Confirmar Asistencia</h4>
+          <h4 className="mt-5">Asistencia</h4>
           <p
             data-aos="fade-right"
             data-aos-offset="300"
@@ -121,17 +123,17 @@ const Varios = () => {
             Soñé con este día y me gustaría vivirlo con quienes más quiero...
           </p>
           <button
-            className="btn-varios mt-3 mb-5"
+            className="btn-varios mt-3 mb-2"
             onClick={() => window.open("https://wa.link/4rs19n")}
           >
-            Mamá Pilar
+           Confirmar a Mamá Pilar
           </button>
           <p>o</p>
           <button
-            className="btn-varios mt-3 mb-5"
+            className="btn-varios mt-2 mb-5"
             onClick={() => window.open("https://wa.link/c9xepb")}
           >
-            Pilar
+           Confirmar a Pilar
           </button>
 
         </aside>
@@ -181,14 +183,15 @@ const Varios = () => {
         </aside>
          <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
-           <img src={qr} alt="" width={300} />
+          
           <h4
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
             Subi tus fotos
-          </h4>
+          </h4> 
+          <img src={qr} alt="" width={300} />
           <p
             data-aos="fade-right"
             data-aos-offset="300"

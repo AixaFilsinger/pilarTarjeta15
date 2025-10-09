@@ -4,12 +4,12 @@ import castillo from "../assets/castillo.jpg"
 
 const Portada = () => {
     return (
-       <section className="d-flex flex-column align-items-center portada">
+       <section className="d-flex flex-column align-items-center  portada">
   
 
   <aside className="linea">
     <h2 className="mis">mis</h2>
-    <img src={quince} alt="" width={150} />
+    <img src={quince} alt="" width={300} />
     <h2 className="años">años</h2>
   </aside>
 
