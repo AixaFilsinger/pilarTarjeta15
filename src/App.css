@@ -211,6 +211,19 @@ small{
   font-size: 2rem;
   margin:20px 30px;
 }
+.btn-varios2 {
+  background: #749764;
+  color: #fff;
+  border: 2px solid gold;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  
+}
 
 .btn-varios {
    font-family: 'Cormorant Garamond', serif;
