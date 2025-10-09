@@ -212,7 +212,7 @@ const Varios = () => {
       >
         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4  data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2  data-aos="zoom-in-down">Milagros</h2>
+        <h2  data-aos="zoom-in-down">Pilar</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
