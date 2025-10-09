@@ -166,7 +166,7 @@ const Varios = () => {
 
               {/* Los <p> ahora sí se ven */}
               <p className="mb-1">
-                <strong>Alias:</strong> natalia.761.sofia.mp
+                <strong>Alias:</strong> natalia.761.sofa.mp
               </p>
               <p className="mb-3">
                 <strong>A nombre de:</strong><br/>Natalia Sofia
