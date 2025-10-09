@@ -59,7 +59,7 @@ const Varios = () => {
           <button
             className="btn-varios mt-3 mb-5"
             onClick={() =>
-              window.open("https://maps.app.goo.gl/TZHeGarFSuTrbdZf7")
+              window.open("https://maps.app.goo.gl/5Avh1ejqbVa9iP316?g_st=aw")
             }
           >
             CÓMO LLEGAR
@@ -105,7 +105,7 @@ const Varios = () => {
             className="btn-varios mt-3 mb-5"
             onClick={() =>
               window.open(
-                "https://open.spotify.com/playlist/2WHLlY0yQwWhGNDeti796r?si=DbqX2fBeShiJS8w295xqUQ"
+                "https://open.spotify.com/playlist/5g3p3R0ducJAilePxlNoy6?si=jTri8ZddR72bx_Jd7A53BQ"
               )
             }
           >
