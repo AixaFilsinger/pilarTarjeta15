@@ -45,26 +45,30 @@ const CuentaRegresiva = () => {
   }, [targetDate]);
   return (
     <section>
-      <aside className="d-flex justify-content-center align-items-center">
+      <aside className="d-flex justify-content-center align-items-center pe-3">
         <img src={circulo} alt="" width={350} />
       </aside>
 
-      <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center">
+      <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center pe-3">
         <h2 className="h2-cuentaRe ">¡Tan solo faltan!</h2>
         <aside className="px-2 pb-2">
           <div className="d-flex flex-column align-items-center justify-content-center contador">
             <div className="d-flex gap-2">
               <div className="text-center">
                 <h3>{timeLeft.days}</h3>
+                <small>Días</small>
               </div>
               <div className="text-center">
                 <h3>{timeLeft.hours}</h3>
+                <small>Horas</small>
               </div>
               <div className="text-center">
                 <h3>{timeLeft.minutes}</h3>
+                <small>Minutos</small>
               </div>
               <div className="text-center">
                 <h3>{timeLeft.seconds}</h3>
+                <small>Segundos</small>
               </div>
               
             </div>
